@@ -1,0 +1,14 @@
+/* transitions */
+
+
+ #box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+     transition:width 10s ease; 
+}
+
+#box:hover{
+    background-color: yellow;
+    width: 1200px;
+} 
